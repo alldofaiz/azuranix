@@ -1,0 +1,173 @@
+
+
+/* Max-width 767px */
+@media screen and (max-width: 767px){
+    nav{
+    max-width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    }
+
+
+    .header .image-bottom img{
+        display: none;
+        margin-left: 50%;
+        
+    }
+
+    .header .image-container {        
+        margin-left: 20%;
+        margin-top: 0%;
+    }
+
+    .header .image-container img{
+        width: 130%;
+    }
+
+
+    .cards-1{
+        margin-top: 35%;
+    }
+
+    .cards-1 .card{
+        margin-top: -20%;
+    }
+
+    .cards-1 .card .img-left {
+        display: none;
+    }
+    
+    .cards-1 .card .img-right {
+        display: none;
+    }
+
+    .cards-1 .card .img-middle {
+        display: none;
+    }
+
+    .modal-content {
+        max-width: 800px;
+    }
+
+    .basic-1{
+        margin-top: -30%;
+    }
+
+    .basic-1 .text-container{
+        margin-top: -15%;
+    }
+
+    .counter{
+        margin-top: -25%;
+    }
+
+    .counter .image-container{
+        display: none;
+    }
+
+
+    .filter {
+        margin-top: -45%;
+    }
+
+    .filter .image-filter{
+        display: none;
+    }
+
+    .cards-2 img{
+        display: none;
+    }
+
+    .basic-2{
+        max-width: 100%;
+    }
+
+    .basic-2 .text-container{
+        padding: 10%;
+    }
+
+    .basic-2 .image-basic-2{
+        display: none;
+    }
+
+    .form-1{
+        margin-top: -20%;
+    }
+
+    .form-1 img{
+        display: none;
+    }
+
+    .footer{
+        margin-top: -20%;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header .image-bottom img{
+        
+        margin-left: -50%;
+        
+    }
+
+    .header .image-container {        
+        margin-left: 35%;
+        margin-top: 0%;
+    }
+
+    .header .image-container img{
+        width: 75%;
+    }
+    
+    .cards-1{
+        margin-top: 20%;
+    }
+
+    .cards-1 .card{
+        margin-top: 70px;
+        padding-top: 20px;
+        width: 400px;
+    }
+
+    .basic-1{
+        margin-top: -50%;
+    }
+
+    .basic-1 .image-container{
+        margin-top: 50%;
+        margin-left: 20%;
+    }
+
+    .counter{
+        margin-top: -10%;
+    }
+
+    .counter .image-container{
+        display: none;
+    }
+
+    .filter .image-filter{
+        display: none;
+    }
+
+    .cards-2 img{
+        display: none;
+    }
+
+    .basic-2{
+        padding: 10%;
+    }
+
+    .basic-2 .image-basic-2{
+        display: none;
+    }
+
+    .form-1 img{
+        display: none;
+    }
+}
